@@ -1,2 +1,7 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
+@import '@fontsource/cascadia-mono';
+
+*{
+  font-family: 'Cascadia Mono', monospace;
+}
