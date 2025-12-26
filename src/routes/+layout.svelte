@@ -12,7 +12,7 @@
 
 <div class="min-h-screen bg-main overflow-hidden flex flex-row">
 	<main class="flex justify-start items-center ml-32 w-8/10">
-		<div class="text-main prose prose-invert prose-headings:text-[#d3c6aa]">
+		<div class="text-main prose prose-invert prose-headings:text-[#a7c080]">
 			{@render children()}
 		</div>
 	</main>

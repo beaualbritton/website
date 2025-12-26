@@ -1,7 +1,3 @@
 # valen 
 
-## distributed version control platform 
-
-### (thats a lot of words)
-
-valen is a blah blah blah
+valen is a *distributed version control platform* (hosting site) for Git repositories, supports http & ssh traffic with proper authorization, a complete file tree view, commit history, branches, collaborators, privacy & sha256 access tokens
