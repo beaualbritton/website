@@ -3,8 +3,7 @@ import Projects from '$lib/components/projects.svelte';
 import ProjectView from '$lib/components/projects/ProjectView.svelte';
 </script>
 
-# projects 
-i have a lot of projects
+# projects
 
 <ProjectView/>
 
