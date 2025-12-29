@@ -1,16 +1,6 @@
-# beau albritton
-hello
+# beau albritton <span class = "text-yellow"></span>
+<p class="text-muted italic -mt-8">developer & dionysian</p>
 
-look at this cool logbase2 function i wrote at 2am i hope you like it
-```cpp
-int logbase2(int x)
-{
-    int i = 0;
-    while (x > 0)
-    {
-        i = i + 1;
-        x = x >> 1;
-    }
-    return (i - 1);
-}
-```
+recently i've been working on:
+* <a target="_blank" href="https://github.com/beaualbritton/valen" class = "text-blue">valen</a>: a distributed version control platform
+* <a target="_blank" href="https://github.com/UniSeeOrg/UniSee" class = "text-blue">unisee</a>: edu verified college review aggregate
