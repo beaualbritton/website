@@ -1,23 +1,21 @@
 import type {PageServerLoad} from './$types'
 import { error } from '@sveltejs/kit';
 import { compile } from 'mdsvex';
-import fs from 'fs';
-import { readFile } from 'fs/promises';
 
-export const load : PageServerLoad = async ({params}) =>
+export const load : PageServerLoad = async ({params,fetch}) =>
 {
   const pageName = params.page;
-  const filePath = `static/md/${pageName}.md`
-  const fileExists = fs.existsSync(filePath)
+  const filePath = `/md/${pageName}.md`
+  const fileResponse = await fetch(filePath)
 
-  if (!fileExists)
+  if (!fileResponse)
   {
     error(404, `project ${pageName} doesn't exist.`)
   }
 
   try
   {
-    let markdown = await readFile(filePath, 'utf8')
+    let markdown = await fileResponse.text()
     const compiled = await compile(markdown)
 
     return {html: compiled?.code}
