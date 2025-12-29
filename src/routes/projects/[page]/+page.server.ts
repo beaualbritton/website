@@ -7,7 +7,7 @@ import { readFile } from 'fs/promises';
 export const load : PageServerLoad = async ({params}) =>
 {
   const pageName = params.page;
-  const filePath = `src/lib/md/${pageName}.md`
+  const filePath = `static/md/${pageName}.md`
   const fileExists = fs.existsSync(filePath)
 
   if (!fileExists)

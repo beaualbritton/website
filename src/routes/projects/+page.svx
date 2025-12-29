@@ -3,6 +3,5 @@ import ProjectView from '$lib/components/projects/ProjectView.svelte';
 </script>
 
 # projects
-tengo muchos proyectos
 <ProjectView/>
 

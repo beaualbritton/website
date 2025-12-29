@@ -15,5 +15,9 @@ export const languageDictionary: Record<string, string> =
   'docker': '',
   'aws': '',
   'cpp': '',
+  'c': '',
   'cmake': '',
+  'asm': '',
+  'gl': '',
+  'gd': ''
 };
