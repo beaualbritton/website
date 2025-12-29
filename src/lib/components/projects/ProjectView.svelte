@@ -2,8 +2,8 @@
 import ProjectBox from "./ProjectBox.svelte";
 </script>
 
-<section class = "flex flex-row flex-wrap mt-4 xl:w-5xl lg:w-3xl w-xl gap-4">
-<ProjectBox title="valen" description ="distributed version control platform"/>
-<ProjectBox title="direc-tuit" description ="a simpler way to visualize your files"/>
-<ProjectBox title="unisee" description ="unbiased, .edu verified college reviews"/>
-</section>
+<div class = "flex flex-row flex-wrap mt-4 w-6xl gap-6">
+<ProjectBox title="valen" description ="distributed version control platform" languageList="sv,ts,dj,py,nginx,aws,docker"/>
+<ProjectBox title="direc-tuit" description ="a simpler way to visualize your files"languageList="cpp,cmake"/>
+<ProjectBox title="unisee" description ="unbiased, .edu verified college reviews"languageList="next,tsx,supa,ts,tcss"/>
+</div>
