@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: 'Nerd Font Symbols';
-  src: url('$lib/fonts/nf-symbols.woff2') format('woff2');
+  src: url('/fonts/nf-symbols.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
@@ -62,5 +62,5 @@
   .bg-yellow { background-color: var(--yellow); }
   .bg-blue { background-color: var(--blue); }
  
-  .font-icons { font-family: 'Nerd Font Symbols', normal; }
+  .font-icons { font-family: 'Nerd Font Symbols', normal !important; }
 }

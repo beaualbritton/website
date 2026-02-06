@@ -18,7 +18,7 @@ console.log(languageListArray)
 
   <div class="flex flex-row gap-4 text-2xl text-muted">
     {#each languageListArray as lang}
-    <span class = "text-shadow-sm">{languageDictionary[lang]}</span>
+    <span class = "font-icons text-shadow-sm">{languageDictionary[lang]}</span>
     {/each}
   </div>
 </div>

@@ -1,4 +1,4 @@
-# beau albritton <span class = "text-yellow"></span>
+# beau albritton <span class = "font-icons text-yellow"></span>
 <p class="text-muted italic -mt-8">developer & dionysian</p>
 
 recently i've been working on:
