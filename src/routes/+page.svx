@@ -2,5 +2,5 @@
 <p class="text-muted italic -mt-8">developer & dionysian</p>
 
 recently i've been working on:
+* <a target="_blank" href="https://github.com/beaualbritton/distributed-systems" class = "text-blue">custom pub/sub</a>: my second independent study
 * <a target="_blank" href="https://github.com/beaualbritton/valen" class = "text-blue">valen</a>: a distributed version control platform
-* <a target="_blank" href="https://github.com/UniSeeOrg/UniSee" class = "text-blue">unisee</a>: edu verified college review aggregate

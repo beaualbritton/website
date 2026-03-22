@@ -4,7 +4,7 @@ import ProjectBox from "./ProjectBox.svelte";
 
 <div class = "flex flex-row flex-wrap mt-4 w-6xl gap-6">
 <ProjectBox title="valen" description ="distributed version control platform" languageList="sv,ts,dj,py,psql,nginx,aws,docker"/>
-<ProjectBox title="unisee" description ="unbiased, .edu verified college reviews"languageList="next,tsx,supa,ts,tcss"/>
+<ProjectBox title="custom pub/sub" description ="my second independent study at uvm"languageList="cpp,py,cmake,docker"/>
 <ProjectBox title="web" description ="various -- SPAs, websockets, converters, authentication"languageList="ts,sv,dj,psql"/>
 <ProjectBox title="simulators" description ="suite of hardware simulators & systems programs"languageList="cpp,c,py,asm"/>
 <ProjectBox title="direc-tuit" description ="a simpler way to visualize your files"languageList="cpp,cmake"/>
